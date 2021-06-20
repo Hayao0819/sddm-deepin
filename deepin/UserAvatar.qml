@@ -24,11 +24,11 @@ Canvas {
         hoverEnabled: true
         onEntered: {
             m_strokeStyle = "#77ffffff"
-            avatar.requestPaint()
+            //avatar.requestPaint()
         }
         onExited: {
             m_strokeStyle = "#ffffffff"
-            avatar.requestPaint()
+            //avatar.requestPaint()
         }
         onClicked: avatar.clicked()
     }
